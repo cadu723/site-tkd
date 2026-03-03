@@ -18,14 +18,14 @@ const Header: React.FC = () => (
           </a>
         ))}
       </nav>
-      <a
+      {/* <a
         href={whatsappLink}
         target="_blank"
         rel="noreferrer"
         className="rounded-md bg-amber-400 px-4 py-2 text-sm font-bold text-zinc-950 transition hover:bg-amber-300"
       >
         WhatsApp
-      </a>
+      </a> */}
     </div>
   </header>
 );
